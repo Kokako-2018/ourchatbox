@@ -1,0 +1,39 @@
+{{!-- <form action="/" accept-charset="UTF-8" method="post">
+
+<div><textarea placeholder="textinput" name="textinput"></textarea>
+<input id="submit" type="submit" name="commit" value="Submit" /></div>
+
+</form> --}}
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>chatroom</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="chatroom.css" />
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Welcome To Chat Room</h1>
+    </div>
+    <div class="container">
+        <div id="displaymessage">
+                {{text}}
+        </div>
+        <div>
+            <form action="/{{id}}" accept-charset="UTF-8" method="post">
+            <input id="usertext" name="message" type="text">
+            <input type="submit" value="Send" />
+            </form>
+      
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
