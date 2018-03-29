@@ -9,13 +9,13 @@ var tempUsers = [
     {
     id: 1,
     name: 'Maddy',
-    text: 'thing',
+    text: ['another dummy'],
     // imageurl:  
 }, 
 {
     id: 2,
     name: 'Laura',
-    text: ''
+    text: ['dummy ']
 }
 ]
 
@@ -42,7 +42,7 @@ server.engine('hbs', hbs({
     var onePerson = tempUsers.find(function(onePerson){
         return onePerson.id == req.params.id
     }) 
-    onePerson.text = message
+    onePerson.text.push(message)
     res.redirect('/' + req.params.id)
   })
 
