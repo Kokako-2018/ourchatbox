@@ -9,13 +9,15 @@ var tempUsers = [
     {
     id: 1,
     name: 'Maddy',
-    text: [{user: 'Maddy', message: 'another dummy'}],
+    text: [{user: 'Maddy', 
+            message: 'another great person'}],
     // imageurl:  
     }, 
     {
         id: 2,
         name: 'Laura',
-        text: [{user: 'Laura', message: 'dummy '}]
+        text: [{user: 'Laura', 
+                message: "you're great "}]
     }
 ]
 
@@ -46,6 +48,7 @@ server.engine('hbs', hbs({
         return onePerson.id == req.params.id
     }) 
     onePerson.text.push({user: onePerson.name, message})
+    console.log(onePerson.text)
     res.redirect('/' + req.params.id)
   })
 
