@@ -7,14 +7,13 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.16.3",
-    "jest": "^22.4.3"
+    "express-handlebars": "^3.0.0",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.2"
   },
-  
   "scripts": {
     "debug": "nodemon --inspect index --ignore data.json",
     "test": "jest --watch --noStackTrace",
     "start": "node index"
   }
-
-    
-  }
+}
