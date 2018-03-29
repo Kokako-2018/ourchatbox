@@ -1,0 +1,32 @@
+
+body{
+    background-color: turquoise;
+}
+.container{
+    height: 700px;
+    width: 600px;
+    border:2px solid navy;
+    margin: auto;
+   background-color: rgb(240, 243, 246);
+}
+.header{
+    text-align: center;
+}
+#displaymessage{
+    height:650px;
+    width: 600px;
+
+}
+#usertext{
+    height:40px;
+    width: 505px;
+    font-size: inherit;
+    font-family: fantasy;
+}
+#send{
+    height: 40px;
+    width: 80px;
+    
+}
+
+
