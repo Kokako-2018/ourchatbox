@@ -12,6 +12,15 @@ body{
 .header{
     text-align: center;
 }
+
+.mainPageSelector{
+    text-align:center;
+}
+
+.userID{
+    text-align: center;
+}
+
 #displaymessage{
     height:650px;
     width: 600px;
