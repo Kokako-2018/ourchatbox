@@ -1,0 +1,45 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    padding: 15% 0% 15% 2%;
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100em;
+    color: navy;
+    align-content: center;
+    padding: 15% 0% 15% 2%;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 85em;
+    color: darkRed;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20em;
+    font-style: bold;
+}
+
+.userID{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 65em;
+    color: navy;
+}
+
+.mainPageSelector{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35em;
+    color: navy;
+}
