@@ -20,10 +20,11 @@
     </div>
     <div class="container">
         <div id="displaymessage">
-                {{text}}
+                {{>conversation}}
         </div>
+        <a href="">Reload</a>
         <div>
-            <form action="/{{id}}" accept-charset="UTF-8" method="post">
+            <form action="/{{userOne.id}}" accept-charset="UTF-8" method="post">
             <input id="usertext" name="message" type="text">
             <input type="submit" value="Send" />
             </form>
