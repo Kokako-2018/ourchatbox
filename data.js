@@ -5,122 +5,122 @@ var data = [
 {
      id: 1,
     name: 'Annette',
-    imgurl: ,
+    imgurl: "./photos/annette.jpeg"
     text: ''
 },
 {
     id: 2,
     name: 'Annika',
-    imgurl: ,
+    imgurl: "./photos/annika.jpeg"
     
     text: ''
 },
 {
     id: 3,
     name: 'Anthony',
-    imgurl: ,
+    imgurl: "./photos/anthony.jpeg"
     text: ''
 },
 {
     id: 4,
     name: 'Ben',
-    imgurl:,
+    imgurl:"./photos/ben.jpeg"
     text: ''
 },
 {
     id: 5,
     name: 'Dana',
-    imgurl:,
+    imgurl:"./photos/Dana.jpeg"
     text:''
 },
 {
     id: 6,
     name: 'Engie',
-    imgurl:,
+    imgurl:"./photos/Engie.jpeg"
     text: ''
 },
 {
     id: 7,
     name: 'Hameet',
-    imgurl:,
+    imgurl:"./photos/Hameet.jpeg"
     text: ''
 },
 {
     id: 8,
     name: 'Harrison',
-    imgurl:,
+    imgurl:"./photos/Harrison.jpeg"
     text: ''
 },
 {
     id: 9,
     name: 'Kelly',
-    imgurl:,
+    imgurl:"./photos/kelly.jpeg"
     text: ''
 },
 {
     id: 10,
     name: 'Laura',
-    imgurl:,
+    imgurl:"./photos/Laura.jpeg"
     text: '',
 },
 {
     id: 11,
     name: 'Maddy',
-    imgurl:,
+    imgurl:"./photos/Maddy.jpeg"
     text: ''
 },
 {
     id: 12,
     name: 'Mark',
-    imgurl:,
+    imgurl:"./photos/Mark.jpeg"
     text: ''
 },
 {
     id: 13,
     name: 'Priya',
-    imgurl:,
+    imgurl:"./photos/Priya.jpeg"
     text: ''
 },
 
 {
     id: 14,
     name: 'Rosie',
-    imgurl:,
+    imgurl:"./photos/Rosie.jpeg"
     text: ''
 },
 {
     id: 15,
     name: 'Ruth',
-    imgurl:,
+    imgurl:"./photos/Ruth.jpeg"
     text: ''
 },
 {
     id: 16,
     name: 'Ross',
-    imgurl:,
+    imgurl:"./photos/Ross.jpeg"
     text: ''
 },
 {
     id: 17,
     name: 'Sam',
-    imgurl:,
+    imgurl:"./photos/Same.jpeg"
     text: ''
 },
 {
     id: 18,
     name: 'Steve',
-    imgurl:,
+    imgurl:"./photos/Steve.jpeg"
     text: ''
 },{
     id: 19,
     name: 'Theta',
-    imgurl:,
+    imgurl:"./photos/Theta.jpeg"
     text: ''
 },
 {
     id: 20,
     name: 'Zach',
-    imgurl:,
+    imgurl:"./photos/Zach.jpeg"
     text: ''
 },
 
