@@ -9,14 +9,14 @@ var tempUsers = [
     {
     id: 1,
     name: 'Maddy',
-    text: ['another dummy'],
+    text: [{user: 'Maddy', message: 'another dummy'}],
     // imageurl:  
-}, 
-{
-    id: 2,
-    name: 'Laura',
-    text: ['dummy ']
-}
+    }, 
+    {
+        id: 2,
+        name: 'Laura',
+        text: [{user: 'Laura', message: 'dummy '}]
+    }
 ]
 
 // Middleware
@@ -30,10 +30,13 @@ server.engine('hbs', hbs({
   
 
   server.get('/:id', function(req, res){
-    var onePerson = tempUsers.find(function(user){
+    var userOne = tempUsers.find(function(user){
         return user.id == req.params.id
     })
-      res.render('chatInput', onePerson) // need to link to user data file 
+    var userTwo = tempUsers.find(function(user) {
+        return user.id != req.params.id
+    })
+    res.render('chatInput', {userOne, userTwo}) // need to link to user data file 
   })
 
   server.post('/:id', function (req, res) {
@@ -42,7 +45,7 @@ server.engine('hbs', hbs({
     var onePerson = tempUsers.find(function(onePerson){
         return onePerson.id == req.params.id
     }) 
-    onePerson.text.push(message)
+    onePerson.text.push({user: onePerson.name, message})
     res.redirect('/' + req.params.id)
   })
 
