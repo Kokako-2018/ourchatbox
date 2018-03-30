@@ -12,6 +12,21 @@ body{
 .header{
     text-align: center;
 }
+
+.users{
+    text-align:center;
+}
+
+.question{
+    text-align: center;
+}
+
+.resize {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
 #displaymessage{
     height:650px;
     width: 600px;
