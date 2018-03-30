@@ -6,10 +6,12 @@
   "author": "ruthbai <minjoobai@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "jest": "^22.4.3",
-    "nodemon": "^1.17.2"
+    "nodemon": "^1.17.2",
+    "supertest": "^3.0.0"
   },
   "scripts": {
     "debug": "nodemon --inspect index --ignore data.json",
