@@ -5,14 +5,14 @@ var data = [
     id: 1,
     name: 'Annette',
     imgurl: "/photos/annette.jpeg",
-    text: ''
+    text: ['']
 },
 {
     id: 2,
     name: 'Annika',
     imgurl: "../photos/annika.jpeg",
     
-    text: ''
+    text: ['']
 },
 // {
 //     id: 3,
