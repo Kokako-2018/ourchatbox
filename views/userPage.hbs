@@ -9,6 +9,11 @@
 
 <!-- Header -->
 <header class="header"> 
+    <img class="leftSteve" src="https://avatars0.githubusercontent.com/u/34639502?s=400&v=4">
+  
+
+
+    <img class="rightSteve" src="https://avatars0.githubusercontent.com/u/34639502?s=400&v=4">
   <h1><b>Steve's Jobs</b></h1>
 	<h4>A chatroom for <a href ="https://github.com/Kokako-2018" alt="Kokako-2018">Kokako 2018 </a>members to discuss Steve's important jobs.
 	</h4>
@@ -30,20 +35,15 @@
 			<h4> 
 				
 				<ul>
+					
 				{{#each this}}
-					
-                    <a href="/{{id}}">{{name}}</a>
-						<a href="/{{id}}"><img src="{{imgurl}}" style="height: 150px;"></a> <!-- note: handlebars will pull in data images from datafile in the img link itself -->
+						<li>
+						<a href="/{{id}}"><img src="{{imgurl}}" style="height: 150px;"></a>
+						<br>
+						<a href="/{{id}}">{{name}}</a> <!-- note: handlebars will pull in data images from datafile in the img link itself -->
+						</li>
 						
-					
 				{{/each}}
-				<br />
-		
-				{{!-- <img src="./photos/annette.jpeg" style="height: 150px;"> <!-- note: handlebars will pull in data images from datafile in the img link itself -->
-				<a href="./chatrooms/chatroom.html">[User 2]</a>
-			</img>
-							<!-- <a href="./chatrooms/chatroom.html">[User 2]</a> .... these are lacking ID params--> 
-				 --}}
 				</ul>
 					
 			</h4>
