@@ -3,14 +3,14 @@ var data = [
     
 {
     id: 1,
-    name: 'Annette',
-    imgurl: "/photos/annette.jpeg",
+    name: 'Harrison',
+    imgurl: "/photos/Harrison.jpeg",
     text: ['']
 },
 {
     id: 2,
-    name: 'Annika',
-    imgurl: "../photos/annika.jpeg",
+    name: 'Kelly',
+    imgurl: "../photos/kelly.jpeg",
     
     text: ['']
 },

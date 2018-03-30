@@ -11,6 +11,8 @@ body{
 }
 .header{
     text-align: center;
+    margin-top: 25px;
+    font-family: Rale
 }
 
 .users{
@@ -27,8 +29,25 @@ body{
     width: 50px;
 }
 
+.leftSteve {
+    float: left;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.rightSteve{
+    float:right;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.person {
+    padding: 40px; 
+}
 #displaymessage{
-    height:650px;
+    height:625px;
     width: 600px;
 
 }
