@@ -5,19 +5,21 @@ var bodyParser = require('body-parser')
 
 var server = express()
 
+var data = require('./data.js')
+
 var tempUsers = [
     {
     id: 1,
     name: 'Maddy',
     text: [{user: 'Maddy', 
-            message: 'another great person'}],
+            message: 'Steve should mop the floor'}],
     // imageurl:  
     }, 
     {
         id: 2,
         name: 'Laura',
         text: [{user: 'Laura', 
-                message: "you're great "}]
+                message: "great idea. also he should dance for us!"}]
     }
 ]
 
@@ -29,7 +31,13 @@ server.engine('hbs', hbs({
   server.set('view engine', 'hbs')
   server.use(express.static('public'))
   server.use(bodyParser.urlencoded({ extended: false }))
-  
+  console.log("data:", data)
+
+  server.get('/', function(req,res){
+    res.render('userPage', data)
+    
+  })
+
 
   server.get('/:id', function(req, res){
     var userOne = tempUsers.find(function(user){
@@ -51,6 +59,9 @@ server.engine('hbs', hbs({
     console.log(onePerson.text)
     res.redirect('/' + req.params.id)
   })
+  
+
+
 
   module.exports = server
   
